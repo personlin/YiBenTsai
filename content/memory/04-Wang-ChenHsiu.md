@@ -1,7 +1,7 @@
 +++
 showonlyimage = true
 draft = false
-image = "img/wangch01.png"
+image = "img/wangchenhsiu.jpg"
 date = "2018-08-22"
 title = "關於蔡義本老師的一些回憶-王貞琇"
 author = "王貞琇"
