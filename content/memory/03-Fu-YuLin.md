@@ -3,7 +3,7 @@ showonlyimage = true
 draft = false
 image = "img/iamfd.jpg"
 date = "2018-08-06"
-title = "關於蔡義本老師的一些回憶"
+title = "關於蔡義本老師的一些回憶-傅玉琳"
 author = "Iamfd"
 weight = 0
 +++
