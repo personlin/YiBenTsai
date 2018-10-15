@@ -39,6 +39,10 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   home = true
 
   [[params.navlinks]]
+  name = "訪問"
+  url = "interview/"
+
+  [[params.navlinks]]
   name = "關於"
   url = "about/"
 
