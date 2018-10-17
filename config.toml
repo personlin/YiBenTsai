@@ -9,6 +9,8 @@ googleAnalytics = "UA-595344-18"
 
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
+customCSS = ["css/style.tables.css"]
+
 [params]
   # Style options: default (pink), blue, green, pink, red, sea, violet
   # Use custom.css for your custom styling
@@ -41,6 +43,11 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   [[params.navlinks]]
   name = "訪問"
   url = "interview/"
+
+  [[params.navlinks]]
+  name = "指導學生"
+  url = "student"
+
 
   [[params.navlinks]]
   name = "關於"

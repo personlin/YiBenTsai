@@ -1,0 +1,31 @@
+---
+title: "蔡義本教授歷年指導之學生"
+date: "2005-06-30"
+output:
+  blogdown::html_page
+
+---
+
+### 蔡義本教授歷年指導之碩士班學生
+
+```{r student-master, echo=FALSE, warning=FALSE, message=FALSE}
+
+library(readxl)
+library(here)
+student.master <- read_xlsx(here("static", "data", "YiBenTsai_student_list.xlsx"), sheet = 1)
+knitr::kable(student.master)
+```
+
+</br>
+</br>
+
+### 蔡義本教授歷年指導之博士班學生
+
+```{r student-phd, echo=FALSE, warning=FALSE, message=FALSE}
+
+library(readxl)
+library(here)
+student.phd <- read_xlsx(here("static", "data", "YiBenTsai_student_list.xlsx"), sheet = 1)
+knitr::kable(student.phd)
+```
+
