@@ -25,7 +25,7 @@ knitr::kable(student.master)
 
 library(readxl)
 library(here)
-student.phd <- read_xlsx(here("static", "data", "YiBenTsai_student_list.xlsx"), sheet = 1)
+student.phd <- read_xlsx(here("static", "data", "YiBenTsai_student_list.xlsx"), sheet = 2)
 knitr::kable(student.phd)
 ```
 
